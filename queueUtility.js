@@ -14,11 +14,12 @@ class Queue {
         if (this.items.length == 0) {
             console.log(`The queue is empty`);
         }
-        else { }
+        else { 
         console.log(`Deleted item is ${this.items[0]}`);
         /*to shift the items*/
         this.items.shift();
     }
+}
     /*to display all the items*/
     displayQueue = () => {
         if (this.items.length == 0) {
@@ -29,4 +30,4 @@ class Queue {
         }
     }
 }
-    module.exports = new Queue();
+module.exports = new Queue();
